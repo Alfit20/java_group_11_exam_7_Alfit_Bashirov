@@ -4,7 +4,6 @@ import com.example.java_11_exam_7_alfit_bashirov.dto.GenerateData;
 import com.example.java_11_exam_7_alfit_bashirov.entity.Customer;
 import com.example.java_11_exam_7_alfit_bashirov.entity.Dish;
 import com.example.java_11_exam_7_alfit_bashirov.entity.Institution;
-import com.example.java_11_exam_7_alfit_bashirov.entity.Order;
 import com.example.java_11_exam_7_alfit_bashirov.repository.CustomerRepository;
 import com.example.java_11_exam_7_alfit_bashirov.repository.DishRepository;
 import com.example.java_11_exam_7_alfit_bashirov.repository.InstitutionRepository;
@@ -14,8 +13,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
-import java.time.LocalDate;
 
 @Configuration
 @RequiredArgsConstructor

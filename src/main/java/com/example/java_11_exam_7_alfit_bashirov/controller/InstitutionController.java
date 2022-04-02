@@ -22,9 +22,4 @@ public class InstitutionController {
         return institutionService.getInstitution(pageable);
     }
 
-//    @GetMapping("/dishes")
-//    public ResponseEntity<String> getDished(Long id, Pageable pageable) {
-//        institutionService.dishesByEstablishment(id, pageable);
-//        return ResponseEntity.ok().build();
-//    }
 }

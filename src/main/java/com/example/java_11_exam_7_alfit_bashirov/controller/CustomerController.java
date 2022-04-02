@@ -1,6 +1,5 @@
 package com.example.java_11_exam_7_alfit_bashirov.controller;
 
-import com.example.java_11_exam_7_alfit_bashirov.dto.DishDto;
 import com.example.java_11_exam_7_alfit_bashirov.dto.OrderDto;
 import com.example.java_11_exam_7_alfit_bashirov.entity.Customer;
 import com.example.java_11_exam_7_alfit_bashirov.service.CustomerService;

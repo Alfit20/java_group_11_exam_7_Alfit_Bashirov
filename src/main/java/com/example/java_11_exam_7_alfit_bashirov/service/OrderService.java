@@ -1,9 +1,7 @@
 package com.example.java_11_exam_7_alfit_bashirov.service;
 
 import com.example.java_11_exam_7_alfit_bashirov.dto.DishDto;
-import com.example.java_11_exam_7_alfit_bashirov.dto.InstitutionDto;
 import com.example.java_11_exam_7_alfit_bashirov.entity.Customer;
-import com.example.java_11_exam_7_alfit_bashirov.entity.Dish;
 import com.example.java_11_exam_7_alfit_bashirov.entity.Order;
 import com.example.java_11_exam_7_alfit_bashirov.repository.CustomerRepository;
 import com.example.java_11_exam_7_alfit_bashirov.repository.DishRepository;
@@ -13,8 +11,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
-import java.util.List;
-import java.util.NoSuchElementException;
 
 @Service
 @RequiredArgsConstructor

@@ -2,9 +2,7 @@ package com.example.java_11_exam_7_alfit_bashirov.service;
 
 import com.example.java_11_exam_7_alfit_bashirov.dto.OrderDto;
 import com.example.java_11_exam_7_alfit_bashirov.entity.Customer;
-import com.example.java_11_exam_7_alfit_bashirov.entity.Order;
 import com.example.java_11_exam_7_alfit_bashirov.repository.CustomerRepository;
-import com.example.java_11_exam_7_alfit_bashirov.repository.DishRepository;
 import com.example.java_11_exam_7_alfit_bashirov.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
