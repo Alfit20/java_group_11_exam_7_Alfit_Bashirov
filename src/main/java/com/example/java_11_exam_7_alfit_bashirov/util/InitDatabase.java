@@ -79,37 +79,6 @@ public class InitDatabase {
                     .institution(ininstitution3)
                     .build());
 
-
-            var order1 = orderRepository.save(Order.builder()
-                    .orderLate(LocalDate.now())
-                    .orderedDish(dish1)
-                    .customer(customer1)
-                    .build());
-            var order2 = orderRepository.save(Order.builder()
-                    .orderLate(LocalDate.now())
-                    .orderedDish(dish1)
-                    .customer(customer1)
-                    .build());
-            var order3 = orderRepository.save(Order.builder()
-                    .orderLate(LocalDate.now())
-                    .orderedDish(dish2)
-                    .customer(customer2)
-                    .build());
-            var order4 = orderRepository.save(Order.builder()
-                    .orderLate(LocalDate.now())
-                    .orderedDish(dish2)
-                    .customer(customer2)
-                    .build());
-            var order5 = orderRepository.save(Order.builder()
-                    .orderLate(LocalDate.now())
-                    .orderedDish(dish3)
-                    .customer(customer3)
-                    .build());
-            var order6 = orderRepository.save(Order.builder()
-                    .orderLate(LocalDate.now())
-                    .orderedDish(dish3)
-                    .customer(customer3)
-                    .build());
         };
     }
 }

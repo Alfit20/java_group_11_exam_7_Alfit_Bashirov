@@ -9,4 +9,5 @@ import java.util.Optional;
 @Repository
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
     Optional<Customer> getByEmail(String email);
+    Customer findCustomerByEmail(String email);
 }

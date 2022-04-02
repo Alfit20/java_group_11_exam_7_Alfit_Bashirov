@@ -11,5 +11,5 @@ import java.util.List;
 @Repository
 public interface DishRepository extends CrudRepository<Dish, Long> {
     List<Dish> findDishByInstitution(Institution id, Pageable pageable);
-
+    Dish findDishByInstitution(Dish id);
 }

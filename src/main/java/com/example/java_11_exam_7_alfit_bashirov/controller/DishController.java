@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 @RequiredArgsConstructor
 @RestController
@@ -20,6 +21,11 @@ public class DishController {
 
     @GetMapping
     public List<DishDto> getDished(@RequestBody InstitutionDto id, Pageable pageable) {
-        return dishService.dishesByEstablishment(id, pageable);
+        try {
+            return dishService.dishesByEstablishment(id, pageable);
+        } catch (NoSuchElementException e) {
+            return null;
+        }
+
     }
 }
