@@ -78,6 +78,18 @@ public class InitDatabase {
                     .typeDish(GenerateData.randomDish().type)
                     .institution(ininstitution3)
                     .build());
+            var dish4 = dishRepository.save(Dish.builder()
+                    .name(GenerateData.randomDish().name)
+                    .price(120)
+                    .typeDish(GenerateData.randomDish().type)
+                    .institution(ininstitution1)
+                    .build());
+            var dish5 = dishRepository.save(Dish.builder()
+                    .name(GenerateData.randomDish().name)
+                    .price(120)
+                    .typeDish(GenerateData.randomDish().type)
+                    .institution(ininstitution1)
+                    .build());
 
         };
     }
