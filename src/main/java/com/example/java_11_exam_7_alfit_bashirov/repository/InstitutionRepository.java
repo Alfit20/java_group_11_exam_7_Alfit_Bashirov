@@ -11,5 +11,4 @@ import java.util.List;
 public interface InstitutionRepository extends CrudRepository<Institution, Long> {
     List<Institution> findAll(Pageable pageable);
 
-//    Institution findInstitutionById(Long id, Pageable pageable);
 }

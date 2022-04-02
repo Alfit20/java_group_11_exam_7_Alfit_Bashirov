@@ -20,7 +20,7 @@ public class DishService {
 
     public List<DishDto> dishesByEstablishment(InstitutionDto id, Pageable pageable) {
         var a = institutionRepository.findById(id.getId()).get();
-        List <Dish> dish = dishRepository.findDishByInstitution(a, pageable);
+        List<Dish> dish = dishRepository.findDishByInstitution(a, pageable);
         List<DishDto> listDishes = new ArrayList<>();
         dish.forEach(c -> listDishes.add(DishDto.from(c)));
         return listDishes;
